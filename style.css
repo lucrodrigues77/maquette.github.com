@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.entreprise-photo {
+  height: 100px;
+  margin-right: 20px;
+}
+
+.entreprise-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-with-image {
+  display: flex;
+  align-items: center;
+}
+
+.main-text {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.petit-image {
+  height: 50px;
+}
+
+.small-text {
+  font-size: 12px;
+  margin: 0;
+  line-height: 1;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+  padding: 5px 0;
+  margin-left: auto;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+main {
+  padding: 1rem;
+}
+
+.hero-section {
+  background-image: url("photo-bandeau.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 4rem 2rem;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 1000px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-field {
+  flex: 1 1 calc(20% - 1rem);
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field label {
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.form-field input {
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.cta-button {
+  background-color: #fa8500;
+  color: white;
+  border: none;
+  padding: 8px 3px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #ffa600;
+}
+
+.large-section {
+  background-color: #f9f9f9;
+  padding: 4rem 2rem;
+  text-align: center;
+}

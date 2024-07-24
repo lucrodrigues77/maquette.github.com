@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercice Maquette</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-left">
+          <img
+            src="logo.png"
+            alt="Photo de l'entreprise"
+            class="entreprise-photo"
+          />
+          <div class="entreprise-info">
+            <p class="small-text">Fabrication de Veranda</p>
+            <div class="info-with-image">
+              <p class="main-text">BAIES ET VERANDA</p>
+              <img src="rge.jpg" alt="Petite image" class="petit-image" />
+            </div>
+            <p class="small-text">De France</p>
+          </div>
+        </div>
+        <nav>
+          <a href="#verandas">Nos verandas</a>
+          <a href="#realisation">Nos réalisation</a>
+          <a href="#devis">Devis</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <section class="hero-section">
+        <div class="form-container">
+          <h1>Estimez votre projet de vérandas gratuitement</h1>
+          <form>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="name">Nom</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-field">
+                <label for="phone">Téléphone</label>
+                <input type="tel" id="phone" name="phone" required />
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-field">
+                <label for="postal-code">Code postal</label>
+                <input
+                  type="text"
+                  id="postal-code"
+                  name="postal-code"
+                  required
+                />
+              </div>
+              <div class="form-field">
+                <label for="surface">Surface</label>
+                <input type="number" id="surface" name="surface" required />
+              </div>
+            </div>
+            <button type="submit" class="cta-button">votre estimation</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="large-section">
+        <div class="large-content">
+          <h2>Nos verandas</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            sit doloremque, dicta magni veniam ad dolorum ipsum maiores officia
+            rem quo? Officia cumque soluta, quae quasi libero voluptas sequi
+            culpa?
+          </p>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
